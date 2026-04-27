@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>اتصل بنا - حيواناتي</title>
+    <style>
+        /* تنسيق CSS بسيط ومباشر */
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
+        header { background: white; padding: 10px 50px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #ddd; }
+        .logo { color: #1a4d2e; font-weight: bold; font-size: 24px; }
+        nav a { margin: 0 10px; text-decoration: none; color: #333; font-size: 14px; }
+        
+        .banner { background-color: #7a8d7a; color: white; text-align: center; padding: 40px 0; }
+        
+        .container { display: flex; max-width: 1000px; margin: 20px auto; background: white; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .contact-info { flex: 1; padding: 20px; border-left: 1px solid #eee; }
+        .contact-form { flex: 2; padding: 20px; }
+        
+        .contact-info h2 { color: #1a4d2e; margin-bottom: 15px; }
+        .info-item { margin-bottom: 15px; font-size: 15px; display: flex; align-items: center; gap: 10px; }
+        
+        input, textarea { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; background-color: #fafafa; }
+        button { background-color: #4a6d4a; color: white; border: none; padding: 15px; cursor: pointer; border-radius: 4px; width: 100%; font-size: 16px; }
+        
+        .map-placeholder { background: #eee; height: 250px; text-align: center; line-height: 250px; margin: 20px auto; max-width: 1000px; border-radius: 8px; }
+        .faq-section { max-width: 1000px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; }
+        .faq-item { border: 1px solid #ddd; padding: 15px; border-radius: 4px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <!-- الهيدر كما يظهر في أعلى الصورة -->
+    <header>
+        <div class="logo">حيواناتي 🐾</div>
+        <nav>
+            <a href="#">الرئيسية</a>
+            <a href="#">الحيوانات</a>
+            <a href="#">تبني</a>
+            <a href="#">خدماتنا</a>
+            <a href="#">المقالات</a>
+            <a href="#">من نحن</a>
+            <a href="#" style="color: #4a6d4a; font-weight: bold;">اتصل بنا</a>
+        </nav>
+    </header>
+
+    <!-- شعار الصفحة (البانر) -->
+    <div class="banner">
+        <h1>اتصل بنا</h1>
+        <p>الرئيسية • اتصل بنا</p>
+    </div>
+
+    <div class="container">
+        <!-- قسم معلومات الاتصال بدون أرقام أو مواعيد -->
+        <div class="contact-info">
+            <h2>تواصل معنا</h2>
+            <p>نحن هنا للإجابة على جميع استفساراتك ودعمك في كل ما يخص حيوانك الأليف [1].</p>
+            
+            <div class="info-item">📧 info@haywanaty.com</div>
+            <div class="info-item">📍 الرياض - المملكة العربية السعودية</div>
+            
+            <!-- أيقونات التواصل الاجتماعي -->
+            <div style="margin-top: 20px; display: flex; gap: 15px; font-size: 20px;">
+                <span>🌐</span> <span>📸</span> <span>📘</span> <span>🎥</span>
+            </div>
+        </div>
+
+        <!-- نموذج المراسلة -->
+        <div class="contact-form">
+            <input type="text" placeholder="الأسم">
+            <input type="email" placeholder="البريد الإلكتروني">
+            <input type="text" placeholder="رقم الهاتف">
+            <input type="text" placeholder="الموضوع">
+            <textarea rows="5" placeholder="رسالتك"></textarea>
+            <button>ارسال الرسالة</button>
+        </div>
+    </div>
+
+    <!-- مساحة الخريطة -->
+    <div class="map-placeholder">
+        <img src="https://via.placeholder.com/1000x250?text=Map+Location" alt="خريطة الموقع" style="width:100%; height:100%; object-fit:cover; border-radius:8px;">
+    </div>
+
+    <!-- قسم الأسئلة الشائعة -->
+    <div class="faq-section">
+        <h3 style="text-align: center; color: #1a4d2e; font-size: 22px;">الأسئلة الشائعة</h3>
+        <div class="faq-item">
+            <span>كيف يمكنني تبني حيوان؟</span>
+            <span>⌵</span>
+        </div>
+    </div>
+
+</body>
+</html>
